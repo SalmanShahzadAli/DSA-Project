@@ -1,3 +1,4 @@
+// in this module we have just hard coded some data into data sets and now we will use this in another file to just simply populate the list.
 #include <iostream>
 #include <cstdlib> // For rand() and srand()
 const int maximum_entries = 108;
@@ -128,7 +129,7 @@ int main()
     {
         cout << "ISBN[" << i << "] = " << ISBN[i] << endl;
         cout << "Serial_Number[" << i << "] = " << Serial_Numbers[i] << endl;
-        cout << "Qunatity[" << i << "] = " << quantity[i] << endl;
+        cout << "Quantity[" << i << "] = " << quantity[i] << endl;
         cout << "book_details[" << i << "] = " << book_details[i] << endl;
         cout << endl;
     }
