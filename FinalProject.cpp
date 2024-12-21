@@ -736,12 +736,26 @@ public:
         NodeforBookDetails *temp = head;
         while (temp != nullptr)
         {
-            Sleep(100);
-            cout << "\t\t\t\t|Serail Number: " << temp->SerialNumber << endl;
-            cout << "\t\t\t\t|ISBN: " << temp->ISBN << endl;
-            cout << "\t\t\t\t|Book_Details: " << temp->book_details << endl;
+            system("CLS");
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << "\t\t\t\t\t\t\t|Serail Number: " << temp->SerialNumber << endl;
+            cout << "\t\t\t\t\t\t\t|ISBN: " << temp->ISBN << endl;
+            cout << "\t\t\t\t\t\t\t|Book_Details: " << temp->book_details << endl;
             cout << endl;
             temp = temp->next;
+            Sleep(100);
         }
     }
 
@@ -1597,6 +1611,7 @@ void StudentPanel()
         cout << "\t\t\t\t\tChoice: ";
         cin >> choice;
         Sleep(1000);
+        system("CLS");
         // the below code is for validation
         while (choice != 1 && choice != 2 && choice != 3 && choice != 4)
         {
@@ -1614,12 +1629,25 @@ void StudentPanel()
         if (choice == 1)
         {
             cout << endl;
-            cout << "\t\t\t\tDisplaying You all the books we have" << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << endl;
+            cout << "\t\t\t\t\t\tStudent Terminal OF Ghulam Ishaq Khan Institue OF Engineering Sciences And Technology" << endl;
+            cout << "\t\t\t\t\t\tDisplaying You all the books we have" << endl;
             Sleep(1000);
             cout << endl;
             myDoublyLinked->printListBooks();
             Sleep(1000);
-            cout << "\t\t\t\tPlease Enter The ISBN Number of the book which you want: ";
+            cout << "\t\t\t\t\t\tPlease Enter The ISBN Number of the book which you want: ";
             cin >> ISBN;
             // getting the name from the list
             string name = myDoublyLinked->getName(ISBN);
